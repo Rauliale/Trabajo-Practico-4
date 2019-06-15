@@ -25,13 +25,16 @@ public class Prestador extends Persona{
     private List<Zona> zonas;
     
 
-    public Prestador() {
+    public Prestador() {					// constructor 
         this.serviciosCancelados = new ArrayList<>();
         this.serviciosTerminados = new ArrayList<>();
         this.tipoServicios = new ArrayList<>();
         this.zonas = new ArrayList<>();
+
+
         
     }
+
     
     
     
